@@ -49,7 +49,43 @@
         </div>
     </nav>
 
+    <!-- Contenido -->
+    <div >
+        <h1 class="text-center">Reportes</h1>
+    </div>
+
+    <div class="alert alert-warning text-center" role="alert">
+        Vota para darle mas prioridad a un reporte.
+    </div>
+
+    <ol class="list-group list-group-numbered">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+                <div class="fw-bold">Modelo de clasificación</div>
+                Reentrenar el modelo de chatbot desplegado en la página de usuarios. 
+            </div>
+            <button type="button" class="btn">Votar</button>
+            <span class="badge text-bg-primary rounded-pill">15</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+                <div class="fw-bold">Riesgo de inyección SQL</div>
+                Se detecto riesgo de inyecciones SQL en la página de login. 
+            </div>
+            <button type="button" class="btn">Votar</button>
+            <span class="badge text-bg-primary rounded-pill">12</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+                <div class="fw-bold">Pipeline roto</div>
+                Reparar el pipeline de Jenkins para continuar con el proceso habitual de CI/CD.
+            </div>
+            <button type="button" class="btn">Votar</button>
+            <span class="badge text-bg-primary rounded-pill">10</span>
+        </li>
+    </ol>
     
+    <button type="button" class="btn btn-primary mt-3">Levantar reporte</button>
 
     
     <!-- Importamos JQuery v3.7.1 -->

@@ -21,7 +21,10 @@
         integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" 
         crossorigin="anonymous" 
         referrerpolicy="no-referrer" 
-    />   
+    />
+    
+
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!-- Navbar -->
@@ -49,8 +52,58 @@
         </div>
     </nav>
 
-    
 
+    <!-- Contenido -->
+    <div >
+        <h1 class="text-center">Proyectos</h1>
+    </div>
+
+    <div class="alert alert-warning text-center" role="alert">
+        Contactanos para conocer mas acerca de nuestros proyectos.
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div id="carouselExample" class="carousel carousel-dark slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card" style="width: 40rem;">
+                        <img src="./img/carrusel/ia_carrusel.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto de IA</h5>
+                            <p class="card-text">Creamos modelos de IA para clasificar imagenes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card" style="width: 40rem;">
+                        <img src="./img/carrusel/ciberseguridad_carrusel.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto de Ciberseguridad</h5>
+                            <p class="card-text">Creao,s un sistema de seguridad para detectar entradas de código malicioso en nuestras páginas web.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card" style="width: 40rem;">
+                        <img src="./img/carrusel/devops_carrusel.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto de DevOps</h5>
+                            <p class="card-text">Creación de pipelines para automatizar la integración y despliegue de nuestras aplicaciones.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    
     
     <!-- Importamos JQuery v3.7.1 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
